@@ -1,0 +1,28 @@
+{
+  "vendorjs": [
+    "client/lib/angular/angular.min.js",
+    "client/lib/angular-animate/angular-animate.min.js",
+    "client/lib/angular-ui-router/release/angular-ui-router.min.js",
+    "client/lib/angular-sanitize/angular-sanitize.min.js",
+    "client/lib/socket.io-client/socket.io.js",
+    "client/lib/angular-socket-io/socket.min.js"
+  ],
+  "js": [
+    ".client/app/main.js",
+    ".client/app/**/*module*.js",
+    ".client/app/**/*config*.js",
+    ".client/app/**/*.js"
+  ],
+  "css": [
+    ".client/assets/css/bootstrap.css",
+    ".client/assets/css/bootstrap-theme.css"
+  ],
+  "fonts": [
+    ".client/assets/font-awesome/fonts/**/*.*"
+  ],
+  "images": [
+    "client/assets/images/**/*"
+  ],
+  "buildjs": "client/build/app",
+  "buildcss": "client/build/css"
+}

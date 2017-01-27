@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+
+<head>
+    <base href="/"/>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta property="og:site_name" content="ExampleApp">
+    <meta property="og:title" content="ExampleApp">
+    <meta property="og:url" content="http://#/">
+    <meta property="og:image" content="http://#/ExampleApp.png">
+    <!--<meta property="fb:app_id" content="Facebook nalog">-->
+    <meta property="og:description" content="ExampleApp ...">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--<meta name="mobile-web-core-capable" content="yes">-->
+
+    <title>ExampleApp</title>
+
+    <link rel="shortcut icon" href="http://#/favicon.ico">
+
+    <link rel="apple-touch-icon" href="http://#/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://#/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://#/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://#/touch-icon-ipad-retina.png">
+
+    <!-- PRODUCTION CSS -->
+    <link rel="stylesheet" href="../build/css/all.min.css">
+</head>
+<body>
+<div ui-view=""></div>
+
+</body>
+
+<!-- PRODUCTION SCRIPTS -->
+<script src="build/app/vendor.min.js"></script>
+<script src="build/app/app.min.js"></script>
+
+
+<!-- For debuging uncomment production scripts and reference them here like in example bellow -->
+<!--<script src="app/main.js"></script>-->
+
+<!--&lt;!&ndash; NAV MODULE &ndash;&gt;-->
+<!--<script src="app/nav/nav.module.js"></script>-->
+<!--<script src="app/nav/nav.config.js"></script>-->
+<!--<script src="app/nav/nav.controller.js"></script>-->
+
+</html>
